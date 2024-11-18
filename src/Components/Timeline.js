@@ -206,7 +206,7 @@ export const Timeline = () => {
                             
                         Began providing'Talking Therapy' after working alongside Charcot treating women with <b><i>hysteria</i></b>.                   
                       <br></br> 
-                      <a href="/AnnaO" >  {/*Add  link to Iceberg Image*/}  
+                      <a href="/Anna" >  {/*Add  link to Iceberg Image*/}  
                         <img src={require('../../src/Images/Anna_O.jpg')} 
                             style={{ width: '75px', height: '75px'}}/> </a> 
                     <br></br> <a href="/Wundt" > Psychoanalysis</a> {/*Add doc on Psychoanalysis*/}
