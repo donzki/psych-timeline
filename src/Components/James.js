@@ -1,5 +1,5 @@
 import React from 'react'
-import pdf from '../../src/Docs/Anna O.pdf'
+
 export const James = () => {
     const style = {
         fontSize: '16px',
@@ -18,7 +18,7 @@ export const James = () => {
           
             <p>This is a simple React page example.</p>
             
- <a href={pdf} target='_blank'>Anna </a>
+ 
             <p></p>
         </main>
     );

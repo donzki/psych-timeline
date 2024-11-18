@@ -204,12 +204,17 @@ export const Timeline = () => {
                             
                     <p> 
                             
-                        Began providing'Talking Therapy' after working alongside Charcot treating women with <b><i>hysteria</i></b>.                   
+                        Began providing'Talking Therapy' after working alongside Charcot treating women with <b><i>hysteria.</i></b>                   
                       <br></br> 
-                      <a href="/Iceberg" >  {/*Add  link to Iceberg Image*/}
-                        <img src={require('../../src/Images/freud_iceberg.jpg')} 
-                            style={{ width: '75px', height: '75px'}}/> </a>  
-                    <br></br> <a href="/Wundt" > Psychoanalysis</a> {/*Add doc on Psychoanalysis*/}
+                      <a href="/Wundt" >  {/* Doc link to Image*/}
+                        <img src={require('../../src/Images/Wundt.jpg')} // this is the image on timeline
+                            style={{ width: '75px', height: '75px'}}/> </a>
+                    
+                    <a href= "/Anna"><img src={require('../../src/Images/Dreams.jpg')} 
+                            style={{ width: '75px', height: '75px'}}/> </a> 
+                    
+                    <br></br> 
+                    <a href="/Wundt" > Psychoanalysis</a> {/*Add doc on Psychoanalysis*/}
                         Published 'Interpretation of Dreams' in 1900.    {/*Add  link to Iceberg Image*/}  
                         <a href= "/Iceberg"><img src={require('../../src/Images/Dreams.jpg')} 
                             style={{ width: '75px', height: '75px'}}/> </a> 
