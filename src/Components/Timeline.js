@@ -151,70 +151,27 @@ export const Timeline = () => {
                     <h3 className="vertical-timeline-element-title"><a href="https://www.simplypsychology.org/sigmund-freud.html" target='_blank'>Sigmund Freud</a> PsychoAnalysis  </h3>
                     <h4 className="vertical-timeline-element-subtitle">Focussed on the Unconscious Mind, Dreams, Psychoanalysis</h4>
                    
-                    <ol><b>Psychoanalytical Approaches:</b>        
-                            <li>Behaviour is influenced by the unconscious mind</li>
-                                <ol><li>Talking Therapy (Anna O)</li>
-                                <li>Free Association</li>
-                                <li>Dream Analysis</li>
-                                </ol>
-                            <li>Instincts (add doc)</li>
-                                <ol><li>Life Instinct: Eros</li>
-                                <li>Death Instinct: Thanatos</li>
-                                <li>Dream Analysis</li>
-                                </ol>
-                            <li>Personality Structure</li>
-                                <ol><li>Conscious, Pre-Conscious, Unconscious (add doc)</li>
-                                <li>ID, Ego, SuperEgo</li></ol>
-                            <li>Psychosexual Stages (add doc)</li>
-                                    <ol><li>Oral (0-18 mnths)</li>
-                                        <li>Anal (18-36 mnths)</li>
-                                        <li>Phallic (3-6 yrs)</li>
-                                        <ol><li>Oedipus Complex</li>
-                                            <li>Electra Complex</li></ol>
-                                        <li>Latent (6-12 yrs)</li>
-                                        <li>Genital </li>
-                                    </ol>
-
-                    </ol>
-                            
-                    <p> 
-                            
-                        Began providing'Talking Therapy' after working alongside Charcot treating women with <b><i>hysteria.</i></b>                   
-                      <br></br> 
-                      <a href="/Anna" >  {/* Doc link to Image*/}
+                    <p> <b>Psychoanalytical Approaches:</b>      
+                           <br></br> Behaviour is influenced by the unconscious mind<br></br>
+                                <a href="/Anna" >  {/* Doc link to Image*/}
                         <img src={require('../../src/Images/Anna_O.jpg')} // this is the image on timeline
-                            style={{ width: '75px', height: '75px'}}/> </a>
-                    
-                    <a href= "/Anna"><img src={require('../../src/Images/Dreams.jpg')} 
-                            style={{ width: '75px', height: '75px'}}/> </a> 
-                    
-                    <br></br> 
-                    <a href="/Wundt" > Psychoanalysis</a> {/*Add doc on Psychoanalysis*/}
-                        Published 'Interpretation of Dreams' in 1900.    {/*Add  link to Iceberg Image*/}  
-                        <a href= "/Iceberg"><img src={require('../../src/Images/Dreams.jpg')} 
-                            style={{ width: '75px', height: '75px'}}/> </a> 
-                        
-                        <a href="/Wundt" > Dreams </a><br></br> {/*Add doc on dream analysis */}
-                        
-                        Freud developed the Iceberg analogy to explain the personality.
-                        <a href="/Iceberg" >  {/*Add  link to Iceberg Image*/}
-                        <img src={require('../../src/Images/freud_iceberg.jpg')} 
-                            style={{ width: '75px', height: '75px'}}/> </a> 
-
-                        <a href="/Psychsex" >  {/*Add  link to Psychsex Image*/}
-                        <img src={require('../../src/Images/5stages.jpg')} 
-                            style={{ width: '75px', height: '75px'}}/> </a> 
-                            <br></br>Personality consists of: <b>ID, Ego, and SuperEgo</b>
-                            <a href="/Wundt" > Personality Doc </a><br></br> {/*Add doc on Personality Theory */}
-                           Psychosexual Theory: Explain Personality<br></br> 
-                           <a href="/Wundt" > Psychosexual Theory Doc </a><br></br> {/*Add doc on dream analysis */}{/*Add doc on Psychosexual Theory */}
-                        
-                        
+                            style={{ width: '75px', height: '75px'}}/> </a>Talking Therapy (Anna O) & Free Association  
                                
-                        
+                        <br></br>
+                        <a href= "/Anna"><img src={require('../../src/Images/Dreams.jpg')} 
+                            style={{ width: '75px', height: '75px'}}/> </a>Published 'Interpretation of Dreams' in 1900.<br></br>   
+                                                         
+                            <a href="/Iceberg" >  {/*Add  link to Iceberg Image*/}
+                        <img src={require('../../src/Images/freud_iceberg.jpg')} 
+                            style={{ width: '75px', height: '75px'}}/> </a> Personality Structure<br></br>
+                                
+                            <a href="/Psychsex" >  {/*Add  link to Psychsex Image*/}
+                        <img src={require('../../src/Images/5stages.jpg')} 
+                            style={{ width: '75px', height: '75px'}}/> </a> Psychosexual Stages<br></br>
+                                    
 
-
-                        Had a huge influence in the development of Human Behaviour and the Psyche.<br></br>
+                    
+                        <b><i>Had a huge influence in the development of Human Behaviour and the Psyche.</i></b><br></br>
                         
 
 

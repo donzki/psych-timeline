@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Wundt }  from "./Components/Wundt";
 import { Psychsex }  from "./Components/Psychsex";
 import { Anna } from "./Components/Anna";
-import { Anna } from "./Components/Titch";
+import { Titch } from "./Components/Titch";
 import { Timeline } from "./Components/Timeline";
 import { James } from "./Components/James";
 import { Functionalism } from "./Components/Functionalism";
