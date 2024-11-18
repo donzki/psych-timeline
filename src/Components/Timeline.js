@@ -206,9 +206,9 @@ export const Timeline = () => {
                             
                         Began providing'Talking Therapy' after working alongside Charcot treating women with <b><i>hysteria</i></b>.                   
                       <br></br> 
-                      <a href="/Anna" >  {/*Add  link to Iceberg Image*/}  
-                        <img src={require('../../src/Images/Anna_O.jpg')} 
-                            style={{ width: '75px', height: '75px'}}/> </a> 
+                      <a href="/Iceberg" >  {/*Add  link to Iceberg Image*/}
+                        <img src={require('../../src/Images/freud_iceberg.jpg')} 
+                            style={{ width: '75px', height: '75px'}}/> </a>  
                     <br></br> <a href="/Wundt" > Psychoanalysis</a> {/*Add doc on Psychoanalysis*/}
                         Published 'Interpretation of Dreams' in 1900.    {/*Add  link to Iceberg Image*/}  
                         <a href= "/Iceberg"><img src={require('../../src/Images/Dreams.jpg')} 
@@ -220,6 +220,7 @@ export const Timeline = () => {
                         <a href="/Iceberg" >  {/*Add  link to Iceberg Image*/}
                         <img src={require('../../src/Images/freud_iceberg.jpg')} 
                             style={{ width: '75px', height: '75px'}}/> </a> 
+
                             <br></br>Personality consists of: <b>ID, Ego, and SuperEgo</b>
                             <a href="/Wundt" > Personality Doc </a><br></br> {/*Add doc on Personality Theory */}
                            Psychosexual Theory: Explain Personality<br></br> 
