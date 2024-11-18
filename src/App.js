@@ -1,10 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Wundt }  from "./Components/Wundt";
+
 import { Timeline } from "./Components/Timeline";
 import { James } from "./Components/James";
 import { Functionalism } from "./Components/Functionalism";
 import { Iceberg } from "./Components/Iceberg";
+
 
 function App() {
       return (
