@@ -1,12 +1,12 @@
 import React from 'react'
 
-export const Wundt = () => {
+export const Titch = () => {
     const style = {
         fontSize: '16px',
         fontWeight: 'bold',
         margin: '20px',
         padding: '20px',
-        background: 'rgb(140, 179, 217)', // change to blue
+        background: 'lightgray',
         minHeight: '100%'
     };
     return (
@@ -15,11 +15,8 @@ export const Wundt = () => {
             <h2>Welcome to the App</h2>
           
             <p>This is a simple React page example.</p>
-           <img src={require('../../src/Images/structuralism.jpg')} />
+           <img src={require('../../src/Images/Titchener.jpg')} />
             <p></p>
         </main>
     );
 };
-
-/*<img src={require('../../src/Images/freud_iceberg.jpg')} />
-<a href="https://www.britannica.com/biography/Edward-B-Titchener" target='_blank'> Edward Thorndike </a>*/

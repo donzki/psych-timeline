@@ -1,21 +1,21 @@
 import React from 'react'
 
-export const Wundt = () => {
+export const Anna = () => {
     const style = {
         fontSize: '16px',
         fontWeight: 'bold',
         margin: '20px',
         padding: '20px',
-        background: 'lightgray', // change to blue
+        background: 'rgb(204, 204, 255)', // change to lilac
         minHeight: '100%'
     };
     return (
         <main style={style}>
              <a href="/" >Back</a>
-            <h2>Welcome to the App</h2>
+            <h2>Anna O Case Study</h2>
           
             <p>This is a simple React page example.</p>
-           <img src={require('../../src/Images/structuralism.jpg')} />
+           <img src={require('../../src/Images/AnnaO.jpg')} />
             <p></p>
         </main>
     );

@@ -46,26 +46,28 @@ export const Timeline = () => {
                     contentStyle={{ background: 'rgb(140, 179, 217)', color: '#000' }}//white
                     contentArrowStyle={{ borderRight: '7px solid  rgb(255, 255, 255)' }}//blue
 
-                    date={<DateLabel text="1879 " />}
+                    date={<DateLabel text="1879 - 1920's " />}
                     
                     iconStyle={{ background:  'rgb(255, 255, 255)', color: '#8cb3d9' }}// White bg blue Icon 
                     icon={<FaBrain />}
                 >
 
                     <h3 className="vertical-timeline-element-title">Willhelm Wundt Father of Modern Psychology. Created the first laboratory for Experimental Psychology in Leipzig, Germany </h3>
-                    <h4 className="vertical-timeline-element-subtitle"> 
-                    <br></br> Founded <b>Structualism</b> with Edward.B Titchener.</h4>
+                    <h3 className="vertical-timeline-element-subtitle"> 
+                    <br></br> Founded <b>Structualism</b> with Edward.B Titchener.</h3>
                     <p>Using <b>Introspection - </b> Examined the structure of the mind by breaking it down to its basic elements.  
                     <b>  = Reductionist</b>
                     <br></br>Focussed on Human Emotions, Cognition & Human Behaviours.<br></br>
                         Was responsible for the training of thousands of students through his lectures and laboratories enabling hundreds to gain degrees in Psychology.
                         <br></br>
-                        Major Influence on <b><i>Psychoanalysis & Cognitive Psychology</i></b> <br></br>
+                        Major Influence on <b><i>Psychoanalysis, Behaviourism & Cognitive Psychology</i></b> <br></br>
                          <a href="/Wundt" >  {/* Doc link to Image*/}
                         <img src={require('../../src/Images/Wundt.jpg')} // this is the image on timeline
                             style={{ width: '75px', height: '75px'}}/> </a> 
-                        <br></br><a href="https://www.simplypsychology.org/structuralism.html#Titcheners-Structuralism" target='_blank'> Structualism and Titchener </a>
                         
+                        <a href="/Titch" >  {/* Doc link to Image*/}
+                        <img src={require('../../src/Images/Titch.jpg')} // this is the image on timeline
+                            style={{ width: '75px', height: '75px'}}/> </a> 
                         
                         
                        
@@ -73,36 +75,7 @@ export const Timeline = () => {
                        
                     </p>
                 </VerticalTimelineElement>
-{/* REMOVE
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--right"
-                    contentStyle={{ background: 'rgb(140, 179, 217)', color: '#000' }}//white
-                    contentArrowStyle={{ borderRight: '7px solid  rgb(255, 255, 255)' }}//blue
 
-                    date={<DateLabel text="1880-1927 " />}
-                    
-                    iconStyle={{ background: 'rgb(255, 255, 255)', color: '#8cb3d9' }}//White bg blue Icon 
-                    icon={<FaBrain />}
-                >
-
-                    <h3 className="vertical-timeline-element-title">Edward.B Titchener<br></br></h3>
-                    <h4 className="vertical-timeline-element-subtitle"> 
-                       Founded <b>Structualism</b> with Willhelm Wundt</h4>
-                    <p>Using <b>Introspection:</b> Expanded on Wundt's system of Structualism.
-                    <br></br>
-                        Focussed on Human Emotions, Cognition & Human Behaviours.<br></br>
-                        Was responsible for the training of thousands of students through his lectures and laboratories enabling hundreds to gain degrees in Psychology.
-                        <br></br>
-                        Influenced <b><i>Experimental Psychology, Psychoanalysis - Freud</i></b> <br></br>
-                        Opposition to Structuralim resulted in the <b>Functionalist</b> Movement by William James in the USA
-                        <br></br><a href="https://www.britannica.com/biography/Edward-B-Titchener" target='_blank'> Edward B. Titchener </a>
-                        <br></br><a href="https://www.simplypsychology.org/structuralism.html#Titcheners-Structuralism" target='_blank'> Structualism and Titchener </a>
-                        <br></br>
-                        <a href="/Wundt" > Willhelm Wundt Doc </a>
-
-                    </p>
-                </VerticalTimelineElement>
-*/}
                 <VerticalTimelineElement
                     className="vertical-timeline-element--right"
                     contentStyle={{ background: 'rgb(140, 179, 217)', color: '#000' }}//blue box
@@ -119,8 +92,10 @@ export const Timeline = () => {
                          <b>Rejected Structualism & Introspection</b> as too Subjective & Qualitative. Did not believe that consciousness could be studied by breaking it down.<br></br>
                         Influenced by Darwin's Theory of Evolution. Believed mental processes evolved to help individuals adapt, and that certain behaviours 
                         were <b>Instincts:</b> Shiver, Sneeze, Suckling, Migration, Hibernation etc. 
-                        <br></br>Influenced the study of <b><i>Behaviourism, Cognitive & Evolutionary Psychology.</i></b> 
-                        
+                        <br></br>Influenced the study of <b><i>Behaviourism, Cognitive & Evolutionary Psychology.</i></b> <br></br>
+                        <a href="/James" >  {/* Doc link to Image*/}
+                        <img src={require('../../src/Images/James.jpg')} // this is the image on timeline
+                            style={{ width: '75px', height: '75px'}}/> </a> 
                         <br></br><a href="/James" > William James Doc </a><br></br>
                         <a href="/Functionalism" > Functionalism Doc </a>
                     </p>
@@ -206,8 +181,8 @@ export const Timeline = () => {
                             
                         Began providing'Talking Therapy' after working alongside Charcot treating women with <b><i>hysteria.</i></b>                   
                       <br></br> 
-                      <a href="/Wundt" >  {/* Doc link to Image*/}
-                        <img src={require('../../src/Images/Wundt.jpg')} // this is the image on timeline
+                      <a href="/Anna" >  {/* Doc link to Image*/}
+                        <img src={require('../../src/Images/Anna_O.jpg')} // this is the image on timeline
                             style={{ width: '75px', height: '75px'}}/> </a>
                     
                     <a href= "/Anna"><img src={require('../../src/Images/Dreams.jpg')} 
@@ -226,6 +201,9 @@ export const Timeline = () => {
                         <img src={require('../../src/Images/freud_iceberg.jpg')} 
                             style={{ width: '75px', height: '75px'}}/> </a> 
 
+                        <a href="/Psychsex" >  {/*Add  link to Psychsex Image*/}
+                        <img src={require('../../src/Images/5stages.jpg')} 
+                            style={{ width: '75px', height: '75px'}}/> </a> 
                             <br></br>Personality consists of: <b>ID, Ego, and SuperEgo</b>
                             <a href="/Wundt" > Personality Doc </a><br></br> {/*Add doc on Personality Theory */}
                            Psychosexual Theory: Explain Personality<br></br> 

@@ -1,7 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Wundt }  from "./Components/Wundt";
-
+import { Psychsex }  from "./Components/Psychsex";
+import { Anna } from "./Components/Anna";
+import { Anna } from "./Components/Titch";
 import { Timeline } from "./Components/Timeline";
 import { James } from "./Components/James";
 import { Functionalism } from "./Components/Functionalism";
@@ -14,6 +16,9 @@ function App() {
       <Router>
           <Routes>        
              <Route exact path="/Wundt" element={<Wundt />} />
+             <Route exact path="/Psychsex" element={<Psychsex />} />
+              <Route exact path="/Anna" element={<Anna  />} />
+              <Route exact path="/Titch" element={<Titch  />} />
               <Route exact path="/James" element={<James />} />
               <Route exact path="/Functionalism" element={<Functionalism />} />
               <Route exact path="/Iceberg" element={<Iceberg />} />

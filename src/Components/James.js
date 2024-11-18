@@ -11,14 +11,11 @@ export const James = () => {
     };
     return (
         <main style={style}>
-            <a href="/" >Back</a>
-            <br></br>
-           
+             <a href="/" >Back</a>
             <h2>Welcome to the App</h2>
           
             <p>This is a simple React page example.</p>
-            
- 
+           <img src={require('../../src/Images/functionalism.jpg')} />
             <p></p>
         </main>
     );

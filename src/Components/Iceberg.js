@@ -6,7 +6,7 @@ export const Iceberg = () => {
         fontWeight: 'bold',
         margin: '20px',
         padding: '20px',
-        background: '#ccccff',
+        background: 'rgb(204, 204, 255)', // change to lilac
         minHeight: '100%'
     };
     return (
@@ -16,7 +16,7 @@ export const Iceberg = () => {
             <h2> Freud's Iceberg Analogy</h2>
            
             <p>This demonstrates Freuds concept of Personality.</p>
-            <img src={require('../../src/Images/freud_iceberg.jpg')} />
+            <img src={require('../../src/Images/personality.jpg')} />
             <p></p>
         </main>
     );
