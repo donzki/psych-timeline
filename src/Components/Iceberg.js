@@ -16,8 +16,9 @@ export const Iceberg = () => {
             <h2> Freud's Iceberg Analogy</h2>
            
             <p>This demonstrates Freuds concept of Personality.</p>
-            <img src={require('../../src/Images/freud_iceberg.jpg')} />
+            <img src={require('../../src/Images/AnnaO.jpg')} />
             <p></p>
         </main>
     );
 };
+/*<img src={require('../../src/Images/freud_iceberg.jpg')} />*/

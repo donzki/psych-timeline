@@ -54,28 +54,32 @@ export const Timeline = () => {
 
                     <h3 className="vertical-timeline-element-title">Willhelm Wundt Father of Modern Psychology. Created the first laboratory for Experimental Psychology in Leipzig, Germany </h3>
                     <h4 className="vertical-timeline-element-subtitle"> 
-                       Founded <b>Structualism</b> with Edward.B Titchener, Europe </h4>
-                    <p>Using <b>Introspection:</b> Examined the structure of the mind by breaking it down to its basic elements of feelings, emotions, thoughts, etc. - 
-                    <b>Reductionist</b><br></br>
-                        Focussed on Human Emotions, Cognition & Human Behaviours.<br></br>
+                    <br></br> Founded <b>Structualism</b> with Edward.B Titchener.</h4>
+                    <p>Using <b>Introspection - </b> Examined the structure of the mind by breaking it down to its basic elements.  
+                    <b>  = Reductionist</b>
+                    <br></br>Focussed on Human Emotions, Cognition & Human Behaviours.<br></br>
                         Was responsible for the training of thousands of students through his lectures and laboratories enabling hundreds to gain degrees in Psychology.
                         <br></br>
-                        Influenced <b><i>Experimental Psychology, Psychoanalysis - Freud</i></b> <br></br>
-                        Opposition to Structuralim resulted in the <b>Functionalist</b> Movement by William James in the USA
-                        <br></br><a href="https://en.wikipedia.org/wiki/Wilhelm_Wundt/" target='_blank'> Willhelm Wundt </a>
+                        Major Influence on <b><i>Psychoanalysis & Cognitive Psychology</i></b> <br></br>
+                         <a href="/Wundt" >  {/* Doc link to Image*/}
+                        <img src={require('../../src/Images/Wundt.jpg')} // this is the image on timeline
+                            style={{ width: '75px', height: '75px'}}/> </a> 
                         <br></br><a href="https://www.simplypsychology.org/structuralism.html#Titcheners-Structuralism" target='_blank'> Structualism and Titchener </a>
-                        <br></br>
-                        <a href="/Wundt" > Willhelm Wundt Doc </a>
-
+                        
+                        
+                        
+                       
+                       
+                       
                     </p>
                 </VerticalTimelineElement>
-
+{/* REMOVE
                 <VerticalTimelineElement
                     className="vertical-timeline-element--right"
                     contentStyle={{ background: 'rgb(140, 179, 217)', color: '#000' }}//white
                     contentArrowStyle={{ borderRight: '7px solid  rgb(255, 255, 255)' }}//blue
 
-                    date={<DateLabel text="1890-1927 " />}
+                    date={<DateLabel text="1880-1927 " />}
                     
                     iconStyle={{ background: 'rgb(255, 255, 255)', color: '#8cb3d9' }}//White bg blue Icon 
                     icon={<FaBrain />}
@@ -98,9 +102,9 @@ export const Timeline = () => {
 
                     </p>
                 </VerticalTimelineElement>
-
+*/}
                 <VerticalTimelineElement
-                    className="vertical-timeline-element--left"
+                    className="vertical-timeline-element--right"
                     contentStyle={{ background: 'rgb(140, 179, 217)', color: '#000' }}//blue box
                     contentArrowStyle={{ borderRight: '7px solid  rgb(255, 255, 255)' }}//white arrow
 
@@ -109,21 +113,21 @@ export const Timeline = () => {
                     iconStyle={{ background: 'rgb(255, 255, 255)', color: '#8cb3d9' }}//white bg blue Icon
                     icon={<FaBrain />}
                 >
-                    <h3 className="vertical-timeline-element-title">William James, Functionalism, USA </h3>
-                    <h4 className="vertical-timeline-element-subtitle">Focused on individual differences, influenced by Darwin </h4>
+                    <h3 className="vertical-timeline-element-title">William James - Functionalism</h3>
+                    <h3 className="vertical-timeline-element-subtitle">Emerged in Opposition to Structuralist approach. </h3>
                     <p>
-                        Disagreed with <b>Structualism</b>. Did not believe that consciousness could be studied by breaking it down into smaller parts.<br></br>
-                        Believed mental processes evolved to help individuals adapt, influenced by Darwin's Theory of Evolution and that certain behaviours 
-                        were the same as <b>Instincts</b> - Shiver, Sneeze, Suckling, Migration, Hibernation etc. 
-                        <br></br>Influenced the study of <b><i>Behaviourism, Applied Psychology, Cognitive Approach, Educational Psychology & Evolutionary Psychology.</i></b> 
-                        <br></br><a href="https://en.wikipedia.org/wiki/Functional_psychology" target='_blank'> Functionalism </a>
+                         <b>Rejected Structualism & Introspection</b> as too Subjective & Qualitative. Did not believe that consciousness could be studied by breaking it down.<br></br>
+                        Influenced by Darwin's Theory of Evolution. Believed mental processes evolved to help individuals adapt, and that certain behaviours 
+                        were <b>Instincts:</b> Shiver, Sneeze, Suckling, Migration, Hibernation etc. 
+                        <br></br>Influenced the study of <b><i>Behaviourism, Cognitive & Evolutionary Psychology.</i></b> 
+                        
                         <br></br><a href="/James" > William James Doc </a><br></br>
                         <a href="/Functionalism" > Functionalism Doc </a>
                     </p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement
-                    className="vertical-timeline-element--right"
+                    className="vertical-timeline-element--left"
                     contentStyle={{ background: 'rgb(140, 179, 217)', color: '#000' }}//white
                     contentArrowStyle={{ borderRight: '7px solid  rgb(255, 255, 255)' }}//blue
 
@@ -133,49 +137,18 @@ export const Timeline = () => {
                     icon={<FaBrain />}
                 >
 
-                    <h3 className="vertical-timeline-element-title">Edward Thorndike</h3>
+                    <h3 className="vertical-timeline-element-title"><a href="https://www.explorepsychology.com/thorndikes-law-of-effect-definition-and-examples/" target='_blank'>Edward Thorndike</a></h3>
                     <h4 className="vertical-timeline-element-subtitle"> 
-                       Developed the <b>'Law of Effect'</b> </h4>
-                    <p>Founder of <b><i>Educational Psychology</i></b> 
-                    <br></br>Explaining how behaviours are learned. 
-                        <br></br>Best known for his experiments involving cats learning to escape from boxes.
+                      Developed the <b>'Law of Effect'</b> </h4>
+                        <p>Associated with Functionalism school of thought.
+                            <br></br>Best known for his experiments involving cats learning to escape from boxes.
+                        <br></br>Explaining how behaviours are learned. 
+                       Major Influence on <b><i>Behaviourist Psychology, especially B.F. Skinner's theory of Operant Conditioning</i></b> <br></br>
                         
-                       Influenced <b><i>Behaviourist Psychology, especially B.F. Skinner's theory of Operant Conditioning</i></b> <br></br>
-                        
-                        <br></br><a href="https://www.britannica.com/biography/Edward-B-Titchener" target='_blank'> Edward B. Titchener </a>
-                        <br></br><a href="https://www.simplypsychology.org/structuralism.html#Titcheners-Structuralism" target='_blank'> Structualism and Titchener </a>
+                        <br></br><a href="https://www.britannica.com/biography/Edward-B-Titchener" target='_blank'> Edward Thorndike </a>
+                        <br></br><a href="https://www.simplypsychology.org/structuralism.html#Titcheners-Structuralism" target='_blank'>Edward Thorndike</a>
                         <br></br>
-                        <a href="/Wundt" > Willhelm Wundt Doc </a>
-
-                    </p>
-                </VerticalTimelineElement>
-
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--left"
-                    contentStyle={{ background: 'rgb(140, 179, 217)', color: '#000' }}//white
-                    contentArrowStyle={{ borderRight: '7px solid  rgb(255, 255, 255)' }}//blue
-
-                    date={<DateLabel text="1923 " />}
-                    
-                    iconStyle={{ background: 'rgb(255, 255, 255)', color: '#8cb3d9' }}//White bg blue Icon 
-                    icon={<FaBrain />}
-                >
-
-                    <h3 className="vertical-timeline-element-title">Gestalt Movement</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Wertheimer, Kohler & Koffka 
-                       Rejects <b><i>Reductionism/Structualism</i></b>In favour of an Holistic approach.</h4>
-                    <p><b>"The whole is greater than the sum of its parts" - Aristotle.<i></i></b>
-                    <br></br> How the mind interprets & organises information.
-                        <br></br>Principles: <b><i>Similarity, Pragnanz, Porximity, Continuity, Closure & Common Region</i></b>
-                        
-                        <br></br>
-                        Influenced many areas of Psychology including:
-                        <b><i>Cognitive Psychology, Social Psychology & Educational Psychology.</i></b> <br></br>
-                        
-                        <br></br><a href="https://www.britannica.com/biography/Edward-B-Titchener" target='_blank'> Edward B. Titchener </a>
-                        <br></br><a href="https://www.simplypsychology.org/structuralism.html#Titcheners-Structuralism" target='_blank'> Structualism and Titchener </a>
-                        <br></br>
-                        <a href="/Wundt" > Willhelm Wundt Doc </a>
+                        <a href="/Wundt" > Edward Thorndike Doc </a>
 
                     </p>
                 </VerticalTimelineElement>
@@ -200,7 +173,7 @@ export const Timeline = () => {
                     icon={<FaBrain />}
                     
                 >
-                    <h3 className="vertical-timeline-element-title">Sigmund Freud, PsychoAnalysis  <a href="https://www.simplypsychology.org/sigmund-freud.html" target='_blank'>Freud</a></h3>
+                    <h3 className="vertical-timeline-element-title"><a href="https://www.simplypsychology.org/sigmund-freud.html" target='_blank'>Sigmund Freud</a> PsychoAnalysis  </h3>
                     <h4 className="vertical-timeline-element-subtitle">Focussed on the Unconscious Mind, Dreams, Psychoanalysis</h4>
                    
                     <ol><b>Psychoanalytical Approaches:</b>        
@@ -231,10 +204,16 @@ export const Timeline = () => {
                             
                     <p> 
                             
-                        Began providing'Talking Therapy' after working alongside Charcot treating women with <b><i>hysteria</i></b>.
-                    <a href="/Wundt" > Anna O </a> ,{/*Add doc on Anna O */}
-                    <a href="/Wundt" > Psychoanalysis</a> {/*Add doc on Psychoanalysis*/}
-                        Published 'Interpretation of Dreams' in 1900. <i>"the royal road to the unconscious.</i>
+                        Began providing'Talking Therapy' after working alongside Charcot treating women with <b><i>hysteria</i></b>.                   
+                      <br></br> 
+                      <a href="/AnnaO" >  {/*Add  link to Iceberg Image*/}  
+                        <img src={require('../../src/Images/Anna_O.jpg')} 
+                            style={{ width: '75px', height: '75px'}}/> </a> 
+                    <br></br> <a href="/Wundt" > Psychoanalysis</a> {/*Add doc on Psychoanalysis*/}
+                        Published 'Interpretation of Dreams' in 1900.    {/*Add  link to Iceberg Image*/}  
+                        <a href= "/Iceberg"><img src={require('../../src/Images/Dreams.jpg')} 
+                            style={{ width: '75px', height: '75px'}}/> </a> 
+                        
                         <a href="/Wundt" > Dreams </a><br></br> {/*Add doc on dream analysis */}
                         
                         Freud developed the Iceberg analogy to explain the personality.
@@ -247,7 +226,7 @@ export const Timeline = () => {
                            <a href="/Wundt" > Psychosexual Theory Doc </a><br></br> {/*Add doc on dream analysis */}{/*Add doc on Psychosexual Theory */}
                         
                         
-                                {/*Add Iceberg image */} 
+                               
                         
 
 
@@ -257,27 +236,7 @@ export const Timeline = () => {
 
                     </p>
                 </VerticalTimelineElement>
-                
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--left"
-                    contentStyle={{ background: 'rgb(204, 204, 255)', color: '#000' }}//lilac
-                    contentArrowStyle={{ borderRight: '7px solid  rgb(255, 255, 255)' }}//white
-                    date={<DateLabel text="1921-1933" />}
-                    iconStyle={{ background: 'rgb(255, 255, 255)', color: '#ccccff' }}// white bg lilsc icon
-                    icon={<FaBrain />}
-                    
-                >
-                    <h3 className="vertical-timeline-element-title">Carl Jung, Analytic Psychology </h3> 
-                    <h4 className="vertical-timeline-element-subtitle">Based on Individual Psyche, Collective Consciousness & Psychological Complexes </h4>
-                    <p>
-                        <br></br>
-                        Had a huge influence in the development of Human Behaviour and the Psyche.<br></br>
-                        <a href="https://www.verywellmind.com/what-are-jungs-4-major-archetypes-2795439" target='_blank'>Jung</a>
-
-
-                    </p>
-                </VerticalTimelineElement>
-
+         {/* 
                 <VerticalTimelineElement
                     className="vertical-timeline-element--right"
                     contentStyle={{ background: 'rgb(204, 204, 255)', color: '#000' }}//lilac
@@ -290,7 +249,7 @@ export const Timeline = () => {
                     <h4 className="vertical-timeline-element-subtitle">One of the first females trained in Psychoanalysis. </h4>
                     <p> Horney believed that the world around us, cultural, helps shape psychological traits, especially neurosis. <br></br> 
                         1937 Developed 'Basic Anxiety' - Four neurotic trends: <i>Affection, Submissiveness, Power & Withdrawal.</i> 
-                        {/*Add doc Karen Horney study on Anxiety  */}
+                        Add doc Karen Horney study on Anxiety  
                         Opposed to Freud opinion that theses traits were instincual.
                         1941 - She was barred from the NY Psychoanalytic Institute after clashing with fellow psychologists over Freuds theories.
                         Criticised Freud's views on women being inferior to men. <br></br>
@@ -301,12 +260,12 @@ export const Timeline = () => {
                         Influenced <b>Psychoanalytic Theory, Cultural and Humanistic Psychology & Feminine Psychology </b><br></br> 
                         
                         
-                        <br></br><a href="https://www.simplypsychology.org/sigmund-freud.html" target='_blank'>Freud</a>{/*Add doc on Karen Horney */}
+                        <br></br><a href="https://www.simplypsychology.org/sigmund-freud.html" target='_blank'>Freud</a>/*Add doc on Karen Horney 
 
 
                     </p>
                 </VerticalTimelineElement>
-
+         */}
                 <VerticalTimelineElement
               
                     className="vertical-timeline-element--left"
